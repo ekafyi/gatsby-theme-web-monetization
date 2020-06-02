@@ -33,7 +33,7 @@
     "gatsby-plugin",
     "web monetization"
   ],
-  "description": "A theme to help you integrate Web Monetization to your Gatsby site",
+  "description": "A theme for integrating the Web Monetization API on your Gatsby site",
   "bugs": {
     "url": "https://github.com/ekafyi/gatsby-theme-web-monetization/issues"
   },
