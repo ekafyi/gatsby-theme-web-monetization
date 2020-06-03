@@ -1,0 +1,25 @@
+---
+title: Web Monetization test note
+date: 2020-06-03
+---
+
+With gatsby-theme-web-monetization, you can add Web Monetization-related components to your MDX pages like this. _No need to import anything!_
+
+<WebMonetizedStatus
+  inactive={<strong>😔 Web Monetization is not running</strong>}
+  style={{ marginBottom: 32 }}
+/>
+
+<WebMonetizedPaywall />
+
+<IfWebMonetized>
+
+Special content just for you. _Yes, you._
+
+</IfWebMonetized>
+
+---
+
+This theme should not interfere with other themes/plugins that supply MDX components, for example [gatsby-mdx-embed](https://gatsby-mdx-embed.netlify.com/), which lets us embed the YouTube video below.
+
+<YouTube youTubeId="dQw4w9WgXcQ" />
