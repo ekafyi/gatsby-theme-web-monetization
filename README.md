@@ -25,7 +25,7 @@ Web Monetization is _”a JavaScript browser API which allows the creation of a 
 
 ```sh
 # create a new site at the directory "my-monetized-site"
-gatsby new my-monetized-site https://github.com/ekafyi/starter-web-monetized-theme
+gatsby new my-monetized-site https://github.com/ekafyi/starter-web-monetization-theme
 ```
 
 Go to your site directory, open `gatsby-config.js`, and modify the `paymentPointer` option with your own wallet’s payment pointer.
@@ -103,7 +103,7 @@ The opposite of `WebMonetizedPaywall`—display content to users with active Web
 </IfWebMonetized>
 ```
 
-This component comes from [react-web-monetization](https://github.com/sharafian/react-web-monetization), which this theme uses as dependency. As such, all components from the library is available for you to import without you having to install the package on your site.
+This component comes from [react-web-monetization](https://github.com/sharafian/react-web-monetization), a package this theme uses as dependency. Because of the way Gatsby themes work, all components from react-web-monetization are available for you to import without you having to manually install it on your site.
 
 ### Using in MDX
 
@@ -122,6 +122,22 @@ Hello world! Why did the chicken cross the road?
 <IfWebMonetized>
   To get to the other side.
 </IfWebMonetized>
+```
+
+🐻 Bear in mind that regular MDX formatting rules apply to these components. For example, if you want to use Markdown formatting inside components that accept `children` prop, make sure you add empty new lines around the content so it gets parsed correctly. [See reference](https://github.com/mdx-js/mdx/issues/628).
+
+```mdx
+<IfWebMonetized>
+
+This is a _very special_ piece of content.
+
+</IfWebMonetized>
+
+<WebMonetizedPaywall>
+
+__Hey!__ Do you want to support this site (and many other) in a secure, private, affordable way? Learn about the [Web Monetization](http://webmonetization.org) technology.
+
+</WebMonetizedPaywall>
 ```
 
 ### Importing components
