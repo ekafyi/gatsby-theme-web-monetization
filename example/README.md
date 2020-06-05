@@ -1,5 +1,7 @@
 # Gatsby Theme Web Monetization — Basic Example
 
+[**Demo Website**](http://gtwm-example-blog.netlify.app)
+
 Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafyi/gatsby-theme-web-monetization/) for a blog site.
 
 I use the official Gatsby starter, plugins, and component shadowing from [this tutorial](https://www.gatsbyjs.org/tutorial/using-multiple-themes-together/). Then I continue with the steps below.
