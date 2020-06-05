@@ -1,6 +1,6 @@
 # Gatsby Theme Web Monetization — Basic Example
 
-[**Demo Website**](http://gtwm-example-blog.netlify.app)
+[🔗 **Demo Website**](http://gtwm-example-blog.netlify.app)
 
 Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafyi/gatsby-theme-web-monetization/) for a blog site.
 
