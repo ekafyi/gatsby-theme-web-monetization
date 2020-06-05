@@ -18,17 +18,13 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `Gatsby Web Monetization Theme Example`,
+    title: `Web Monetized Blog`,
     author: `@ekafyi`,
-    description: `Example site that uses gatsby-theme-web-monetization`,
+    description: `Gatsby Web Monetization Theme Example — Basic Blog Site`,
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
-      },
-      {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/ekafyi/gatsby-theme-web-monetization/tree/master/example`,
       },
     ],
   },

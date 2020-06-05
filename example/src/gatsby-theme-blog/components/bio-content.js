@@ -1,13 +1,15 @@
 import React from "react"
 
-// example importing components
-// import { WebMonetizedStatus } from "gatsby-theme-web-monetization"
-// import { IfWebMonetized, IfNotWebMonetized } from "react-web-monetization"
-
 export default function BioContent() {
   return (
     <React.Fragment>
-      Test site to develop gatsby-theme-web-monetization. <strong>Yay!</strong>
+      Example blog site with the{" "}
+      <a
+        href="https://github.com/ekafyi/gatsby-theme-web-monetization"
+        rel="external"
+      >
+        Gatsby Web Monetization Theme
+      </a>
     </React.Fragment>
   )
 }

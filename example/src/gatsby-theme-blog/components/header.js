@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import React from "react" // eslint-disable-line no-console
+// eslint-disable-next-line
+import React from "react"
 import { Link } from "gatsby"
 import { jsx, Styled, css } from "theme-ui"
 import OriginalHeader from "gatsby-theme-blog/src/components/header"
