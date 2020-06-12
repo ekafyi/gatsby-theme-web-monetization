@@ -139,7 +139,14 @@ This theme has been tested to work with another theme that also wraps the site w
 
 ## Examples
 
-Coming soon
+- Basic example 
+	- With Gatsby’s official [blog](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-theme-blog) and [notes](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-theme-notes) theme
+	- [Demo](http://gtwm-example-blog.netlify.app)
+	- [Starter](https://github.com/ekafyi/gatsby-starter-web-monetization-theme-blog)
+- Portfolio site example 
+	- With [@LekoArts/gatsby-theme-emilia](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emilia)
+	- [Demo](http://gtwm-example-portfolio.netlify.app)
+	- [Starter](https://github.com/ekafyi/gatsby-starter-web-monetization-theme-portfolio)
 
 ---
 

@@ -17,13 +17,18 @@ _Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafy
 4. ??
 5. Profit
 
-Head to the [Theme Documentation](https://github.com/ekafyi/gatsby-theme-web-monetization) for more information on usage.
+Head to the themes’ documentation for more information about their usage:
+- [gatsby-theme-web-monetization](https://github.com/ekafyi/gatsby-theme-web-monetization)
+- [gatsby-theme-blog](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-theme-blog)
+- [gatsby-theme-notes](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-theme-notes)
 
 ## ⚠️ Warning
 
 This example serves as an MVP which aims to demonstrates how the Web Monetization API works.
 
 Wrapping your “exclusive” (monetized-only) content in the `IfWebMonetized` component _is not secure_. The content still gets sent, just not rendered; it will be easy for tech-savvy visitors to find it. Don’t use it for sensitive data, and consider using serverless/cloud functions for better security.
+
+Also, make sure your source code (eg. Github repository) is set to private. 😬
 
 ## How I made this example site
 
