@@ -1,10 +1,33 @@
 # Gatsby Theme Web Monetization — Basic Example
 
-[🔗 **Demo Website**](http://gtwm-example-blog.netlify.app)
+_Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafyi/gatsby-theme-web-monetization/) for a blog site._
 
-Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafyi/gatsby-theme-web-monetization/) for a blog site.
+[🔗 Demo](http://gtwm-example-blog.netlify.app)
 
-I use the official Gatsby starter, plugins, and component shadowing from [this tutorial](https://www.gatsbyjs.org/tutorial/using-multiple-themes-together/). Then I continue with the steps below.
+---
+
+## How to use
+
+
+1. Clone [the starter site](https://github.com/ekafyi/gatsby-starter-web-monetization-theme-blog) to make a new site from this example
+	* …or use the Gatsby CLI, `gatsby new my-monetized-site https://github.com/ekafyi/gatsby-starter-web-monetization-theme-blog`
+	* …or use the [Netlify one-click deploy](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/gatsby-starter-web-monetization-theme-blog)
+2. Add your payment pointer in `gatsby-config.js`
+3. Add your content in `content`
+4. ??
+5. Profit
+
+Head to the [Theme Documentation](https://github.com/ekafyi/gatsby-theme-web-monetization) for more information on usage.
+
+## ⚠️ Warning
+
+This example serves as an MVP which aims to demonstrates how the Web Monetization API works.
+
+Wrapping your “exclusive” (monetized-only) content in the `IfWebMonetized` component _is not secure_. The content still gets sent, just not rendered; it will be easy for tech-savvy visitors to find it. Don’t use it for sensitive data, and consider using serverless/cloud functions for better security.
+
+## How I made this example site
+
+In this site, I combine gatsby-theme-web-monetization with Gatsby’s official blog and note themes. I use the official Gatsby starter, plugins, and component shadowing from [this tutorial](https://www.gatsbyjs.org/tutorial/using-multiple-themes-together/). Then I continue with the steps below.
 
 0) Install the theme.
 
