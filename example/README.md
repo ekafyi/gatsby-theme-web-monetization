@@ -5,3 +5,5 @@ _Basic usage example of [gatsby-theme-web-monetization](https://github.com/ekafy
 [🔗 Demo](http://gtwm-example-blog.netlify.app)
 
 [🏁 Starter site](https://github.com/ekafyi/gatsby-starter-web-monetization-theme-blog)
+
+🔧 Run locally with `gatsby develop`
